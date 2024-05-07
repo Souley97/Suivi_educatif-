@@ -287,5 +287,71 @@ section{
 
 /*  */
 /*  */
+.static{
+background-color: #4fd1c561;
+height: 589px;
+left: 0px;
+position: relative;
+top: 0px;
+}
 
+
+
+
+.static h1 {
+    -webkit-text-stroke: 2px var(--elf-green);
+    background-color: transparent;
+    color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    padding: 7rem ;
+    line-height: 77px;
+    font-size: 67px;
+    text-align: left;
+    white-space: nowrap;
+    width: auto;
+    pointer-events: fill;
+}
+.static .star {
+    
+    align-items: center;
+    display: block;
+    gap: 20px;
+    height: 116px;
+    left: 0px;
+    padding: 30px 80px 30px 80px;
+    top: 0px;
+    width: 312px;
+    color: #4fd1c561;
+
+}
+.static span {
+    color: var(--white);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6px;
+    position: relative;
+    width: 100%;
+    font-size: 92px;
+    margin: 3px ;
+    color: #005b52;
+
+
+}
+
+
+.static p {
+    color: var(--white);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6px;
+    position: relative;
+    width: 100%;
+    font-size: 52px;
+    color: #079587;
+
+}
+
+/*  */
+/*  */
 
