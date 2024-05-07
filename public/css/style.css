@@ -1,0 +1,291 @@
+:root {
+  
+}
+:root {
+    --black: #000000;
+    --blaze-orange: #fd6101;
+    --disabled-grey: #c4c4c4;
+    --elf-green: #078378;
+    --gray200: #dadae8;
+    --grays500: #9190a1;
+    --hurricane: #8d7d7d;
+    --sea-serpent: #4fd1c5;
+    --themedark-bg: #0f1f3e;
+    --themesoft-colorsfaded-white: #ffffff1a;
+    --themesoft-colorsprimary-soft: #00b2ff14;
+    --tuna: #2f2e41;
+    --white: #ffffff;
+    --font-size-l: 49px;
+    --font-size-m: 32px;
+    --font-size-s: 25px;
+    --font-size-xl: 77px;
+    --font-size-xs: 24px;
+    --font-size-xxs: 16px;
+    --font-family-inter: "Inter", Helvetica;
+    --font-family-pt_sans_caption: "PT Sans Caption", Helvetica;
+    --font-family-rounded_mplus_1c_bold-bold: "Rounded Mplus 1c Bold-Bold", Helvetica;
+    --font-family-rubik: "Rubik", Helvetica;
+    --font-family-zen_loop: "Zen Loop", Helvetica;
+    --colorOrange: #ff6250;
+    --colorVert:#4FD1C5; 
+    --fontZine: 'Zen Loop', sans-serif;
+
+}
+
+
+
+   @import url('https://fonts.cdnfonts.com/css/zen-loop');
+
+   .cours h1 {
+    -webkit-text-stroke: 2px var(--elf-green);
+    background-color: transparent;
+    color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    padding: 7rem ;
+    line-height: 77px;
+    font-size: 67px;
+    text-align: left;
+    white-space: nowrap;
+    width: auto;
+    pointer-events: fill;
+}
+
+body {
+    background: #000000e6;
+
+}
+section{
+    margin-bottom: 10rem;
+}
+.bannier .titre{
+    font-family: var(--fontZine);
+    position:absolute;
+    top: 17rem;
+    left: 24rem;
+    z-index: 21;
+    padding: 12px;
+    color: white;
+    width: 24%;
+    text-align: center;
+    font-size: 77px;
+    
+
+}
+.bannier h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+ .bannier span{
+    font-family: var(--fontZine);
+    position:absolute;
+    top: 45rem;
+    left: 18rem;
+    z-index: 21;
+    padding: 12px;
+    color: white;
+    width: 40%;
+    font-size: 29px;
+    text-align: center;
+
+}
+.contner {
+    background: #434343e6;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.navbar {
+    margin-left: 10rem;
+}
+
+.red {
+    width: 3px;
+    height: 12px;
+    background: red;
+    margin-left: 12px;
+}
+
+.t {
+    width: 32px;
+}
+
+.connnexion {
+    width: 171px;
+
+    background-color: #FD6101;
+}
+
+.bannier {
+    position: relative;
+    background: #F3F3F3;
+    height: 32rem;
+
+}
+.bannier .image-bannier  {
+  z-index: 1;
+}
+.bannier .boul {
+    margin-left: -12rem;
+    padding-right: 8rem;
+    margin-top: 5rem;
+}.bannier .boul2 {
+    padding-left:81rem;
+    margin-top: -41rem;
+}
+
+/*  */
+
+
+/*  */
+
+.apropos{
+    position: relative;
+    margin-top: 19rem;
+}
+
+.apropos h1 {
+    -webkit-text-stroke: 2px var(--elf-green);
+    background-color: transparent;
+    color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    padding: 7rem ;
+    line-height: 77px;
+    font-size: 67px;
+    text-align: left;
+    white-space: nowrap;
+    width: auto;
+    pointer-events: fill;
+}
+
+.apropos .image {
+    position: relative;
+    background-color: transparent;
+    height: 623px;
+    left: 13px;
+    object-fit: cover;
+    width: 662px;
+
+
+}
+
+
+
+
+.apropos p {
+    color: var(--hurricane);
+    font-family: var(--font-family-pt_sans_caption);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+/*  */
+/*  */
+.cours{
+    background: url('../images/bgGreen.png') ;
+    height: 700px;
+}
+
+.cours h1 {
+    -webkit-text-stroke: 2px var(--disabled-grey);
+    background-color: transparent;
+    color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    padding: 7rem ;
+    line-height: 77px;
+    font-size: 67px;
+    text-align: left;
+    white-space: nowrap;
+    width: auto;
+    pointer-events: fill;
+}
+.cours .card {
+    
+    align-items: center;
+    background-color: var(--sea-serpent);
+    display: flex;
+    gap: 20px;
+    height: 116px;
+    left: 0px;
+    padding: 30px 50px 30px 60px;
+    top: 0px;
+    width: 312px;
+}
+.cours span {
+    background-color: transparent;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 700;
+    line-height: px;
+    position: relative;
+    width: 100%;
+}
+
+/*  */
+/*  */
+
+
+.avis{
+    position: relative;
+}
+
+.avis h1 {
+    -webkit-text-stroke: 2px var(--elf-green);
+    background-color: transparent;
+    color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 7rem ;
+    line-height: 77px;
+    font-size: 67px;
+    text-align: left;
+    white-space: nowrap;
+    width: auto;
+    pointer-events: fill;
+}
+
+.avis .image {
+    position: relative;
+    background-color: transparent;
+    height: 385px;
+    left: 13px;
+    object-fit: cover;
+    width: 321px;
+
+
+}
+
+.avis p {
+    color: var(--hurricane);
+    font-family: var(--font-family-pt_sans_caption);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+.avis span {
+    font-family: var(--font-family-rubik);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 49;
+    margin-bottom: 19px;
+
+}
+
+/*  */
+/*  */
+
+
