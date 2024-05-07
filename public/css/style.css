@@ -56,12 +56,12 @@ body {
 
 }
 section{
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
 }
 .bannier .titre{
     font-family: var(--fontZine);
     position:absolute;
-    top: 17rem;
+    top: 17rem; 
     left: 24rem;
     z-index: 21;
     padding: 12px;
@@ -238,6 +238,7 @@ section{
 
 .avis{
     position: relative;
+    margin-top: 5rem;
 }
 
 .avis h1 {
@@ -289,7 +290,7 @@ section{
 /*  */
 .static{
 background-color: #4fd1c561;
-height: 589px;
+height: 35rem;
 left: 0px;
 position: relative;
 top: 0px;
@@ -349,6 +350,175 @@ top: 0px;
     width: 100%;
     font-size: 52px;
     color: #079587;
+
+}
+
+/*  */
+/*  */
+.prof{
+    height: 700px;
+}
+.prof img{
+  
+    width: 251px;
+    height: 251px;
+
+}
+
+.prof .fle{
+    height: 30px;
+    width:  50px;
+
+}
+
+.prof h1 {
+    -webkit-text-stroke: 2px var(--elf-green);
+    background-color: transparent;
+    color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    padding: 7rem ;
+    line-height: 77px;
+    font-size: 67px;
+    text-align: left;
+    white-space: nowrap;
+    width: auto;
+    pointer-events: fill;
+}
+
+.prof span {
+    background-color: transparent;
+    color: var(--black);
+    font-style: normal;
+    font-weight: 700;
+    line-height: px;
+    position: relative;
+    width: 100%;
+
+}
+
+/*  */
+/*  */
+
+.evenement{
+    height: 700px;
+}
+.evenement img{
+  
+    width: 251px;
+    height: 251px;
+
+}
+
+.evenement .fle{
+    height: 30px;
+    width:  50px;
+
+}
+
+.evenement h1 {
+    -webkit-text-stroke: 2px var(--elf-green);
+    background-color: transparent;
+    color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    padding: 7rem ;
+    line-height: 77px;
+    font-size: 67px;
+    text-align: left;
+    white-space: nowrap;
+    width: auto;
+    pointer-events: fill;
+}
+
+.evenement span {
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    line-height: px;
+    position: relative;
+    color: var(--elf-green);
+    background-color: #13dac63c;
+
+}
+
+.evenement i {
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 200;
+    line-height: px;
+    position: relative;
+  color: #2e2e2e;
+}
+
+.evenement .detail {
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    position: relative;
+  color: orangered;
+}
+.evenement .th {
+    width: 100%;
+    border-bottom: #6d6d6d48 solid 0.21px;
+  color: orangered;
+}
+
+/*  */
+/*  */
+
+
+.newsletter{
+    margin-top: 35rem;
+    background-color: #4fd1c561;
+height: 35rem;
+left: 0px;
+position: relative;
+top: 0px;
+    
+}
+
+.newsletter h1 {
+    -webkit-text-stroke: 2px var(--elf-green);
+    background-color: transparent;
+    color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 7rem ;
+    line-height: 77px;
+    font-size: 67px;
+    text-align: left;
+    white-space: nowrap;
+    width: auto;
+    pointer-events: fill;
+}
+
+.newsletter .image {
+    position: relative;
+    background-color: transparent;
+    height: 455px;
+    object-fit: cover;
+
+
+}
+
+.newsletter p {
+    color: var(--hurricane);
+    font-family: var(--font-family-pt_sans_caption);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+.newsletter span {
+    font-family: var(--font-family-rubik);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 49;
+    margin-bottom: 19px;
 
 }
 
